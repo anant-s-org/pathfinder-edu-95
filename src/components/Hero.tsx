@@ -18,6 +18,7 @@ const Hero = () => {
             <p className="text-xl mb-8 text-white/90 leading-relaxed">
               Discover your potential, explore career paths, and find the perfect government college 
               for your future. Make informed decisions with our AI-powered guidance platform.
+              KUSH
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
