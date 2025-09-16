@@ -28,9 +28,8 @@ const Hero = () => {
                 Take Aptitude Test
               </Button>
               <Button 
-                variant="outline" 
-                size="lg"
-                className="border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-xl transition-all duration-300"
+                size="lg" 
+                className="bg-white text-primary hover:bg-white/90 font-semibold px-8 py-4 rounded-xl shadow-button transition-all duration-300 hover:scale-105"
               >
                 Explore Colleges
               </Button>
