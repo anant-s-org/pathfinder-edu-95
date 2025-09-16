@@ -33,8 +33,11 @@ const Hero = () => {
               >
                 Explore Colleges
               </Button>
-            </div>
-          </div>
+              <Button 
+                variant="outline" 
+                size="lg"
+                className="border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-xl transition-all duration-300"
+            
           
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white transform hover:scale-105 transition-transform duration-300">
@@ -43,13 +46,13 @@ const Hero = () => {
               <p className="text-white/80 text-sm">Discover your strengths and ideal career paths</p>
             </div>
             
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white transform hover:scale-105 transition-transform duration-300 mt-8">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white transform hover:scale-105 transition-transform duration-300">
               <GraduationCap className="w-12 h-12 mb-4 text-success-light" />
               <h3 className="font-semibold text-lg mb-2">Course Mapping</h3>
               <p className="text-white/80 text-sm">Visualize career outcomes for different degrees</p>
             </div>
             
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white transform hover:scale-105 transition-transform duration-300 -mt-8">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white transform hover:scale-105 transition-transform duration-300">
               <MapPin className="w-12 h-12 mb-4 text-accent" />
               <h3 className="font-semibold text-lg mb-2">College Directory</h3>
               <p className="text-white/80 text-sm">Find nearby government colleges with detailed info</p>
