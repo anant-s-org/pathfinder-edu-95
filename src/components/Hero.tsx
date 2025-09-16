@@ -39,7 +39,7 @@ const Hero = () => {
                 className="border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-xl transition-all duration-300"
             
           
-          <div className="grid grid-cols-2 gap-6  items-stretch>
+          <div className="grid grid-cols-2 gap-6 items-stretch>
             
             >div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white transform hover:scale-105 transition-transform duration-300 h-full">
               <Target className="w-12 h-12 mb-4 text-accent" />
