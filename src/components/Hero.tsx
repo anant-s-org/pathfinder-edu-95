@@ -39,7 +39,8 @@ const Hero = () => {
                 className="border-white text-white hover:bg-white hover:text-primary font-semibold px-8 py-4 rounded-xl transition-all duration-300"
             
           
-          <div className="grid grid-cols-2 gap-6  items-stretch">
+          <div className="grid grid-cols-2 gap-6  items-stretch>
+            
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white transform hover:scale-105 transition-transform duration-300 h-full">
               <Target className="w-12 h-12 mb-4 text-accent" />
               <h3 className="font-semibold text-lg mb-2">Aptitude Assessment</h3>
@@ -63,6 +64,7 @@ const Hero = () => {
               <h3 className="font-semibold text-lg mb-2">Timeline Tracker</h3>
               <p className="text-white/80 text-sm">Never miss important admission deadlines</p>
             </div>
+            
           </div>
         </div>
       </div>
