@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="text-white">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
               Your Journey to the{" "}
-              <span className="bg-gradient-to-r from-accent to-accent-light bg-clip-text text-transparent">
+              <span className="text-accent">
                 Right Career
               </span>{" "}
               Starts Here
